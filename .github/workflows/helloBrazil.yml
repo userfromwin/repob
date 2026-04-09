@@ -1,0 +1,8 @@
+name: ParangoleLove
+on: push
+jobs:
+  CityofGod:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello Brazil! Parangole Love!"
+      - users: actions/checkout@v4
